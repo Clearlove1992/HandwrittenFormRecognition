@@ -1,0 +1,24 @@
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\bin\Debug\MyFormRecg.exe
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\bin\Debug\MyFormRecg.pdb
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\Window1.baml
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\Window1.g.cs
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\App.g.cs
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\MyFormRecg_MarkupCompile.cache
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\MyFormRecg.g.resources
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\MyFormRecg.Properties.Resources.resources
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\MyFormRecg.csproj.GenerateResource.Cache
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\MyFormRecg.exe
+C:\Users\Administrator.PC\AppData\Local\Temporary Projects\MyFormRecg\obj\Debug\MyFormRecg.pdb
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\MyFormRecg.exe
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\MyFormRecg.pdb
+D:\SourceCode\MyFormRecg\MyFormRecg\bin\Debug\MyFormRecg.exe
+D:\SourceCode\MyFormRecg\MyFormRecg\bin\Debug\MyFormRecg.pdb
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\ResolveAssemblyReference.cache
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\Window1.baml
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\Window1.g.cs
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\App.g.cs
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\MyFormRecg_MarkupCompile.cache
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\MyFormRecg.g.resources
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\MyFormRecg.Properties.Resources.resources
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Debug\MyFormRecg.csproj.GenerateResource.Cache

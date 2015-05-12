@@ -1,0 +1,12 @@
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\Window1.baml
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\Window1.g.cs
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\App.g.cs
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\MyFormRecg_MarkupCompile.cache
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\MyFormRecg.g.resources
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\MyFormRecg.Properties.Resources.resources
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\MyFormRecg.csproj.GenerateResource.Cache
+D:\SourceCode\MyFormRecg\MyFormRecg\bin\Release\MyFormRecg.exe
+D:\SourceCode\MyFormRecg\MyFormRecg\bin\Release\MyFormRecg.pdb
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\MyFormRecg.exe
+D:\SourceCode\MyFormRecg\MyFormRecg\obj\Release\MyFormRecg.pdb

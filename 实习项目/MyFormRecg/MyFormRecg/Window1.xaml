@@ -1,0 +1,66 @@
+﻿<Window x:Class="MyFormRecg.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="表格识别" Height="1023" Width="762">
+    <Grid>
+        <InkCanvas Margin="0,0,206,12" Name="MyIP" MouseLeftButtonUp="button_IsForm" Background="SkyBlue" UseCustomCursor="True">
+            
+        </InkCanvas>
+        <GroupBox Header="输入类型" Height="100" HorizontalAlignment="Right" Margin="0,118,0,0" Name="groupBox1" VerticalAlignment="Top" Width="200">
+            <Grid>
+                <RadioButton Height="16" Margin="22,14,34,0" Name="radioButtonForm" VerticalAlignment="Top" IsChecked="True">表格</RadioButton>
+                <RadioButton Margin="22,36,34,25" Name="radioButtonText">文本</RadioButton>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="基本属性" Height="100" Margin="0,224,0,0" Name="groupBox2" VerticalAlignment="Top" HorizontalAlignment="Right" Width="200">
+            <Grid>
+                <Button HorizontalAlignment="Left" Margin="6,15,0,37" Name="button6" Width="75" Click="buttoncnt_Click">笔画数</Button>
+                <TextBox Margin="0,15,12.5,37" Name="textBoxstrokescnt" Width="75" HorizontalAlignment="Right" />
+                <Button Margin="6,0,0,6" Name="buttonStandDiv" Click="buttonStandDiv_Click" Width="75" HorizontalAlignment="Left" Height="25.163" VerticalAlignment="Bottom">查看标签</Button>
+                <Button HorizontalAlignment="Right" Margin="0,0,12.5,6" Name="button2" Width="75" Click="button2_Click" Height="25.163" VerticalAlignment="Bottom">撤销标签</Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="文件操作" Height="100" Margin="0,12,0,0" Name="groupBox3" VerticalAlignment="Top" Width="200" HorizontalAlignment="Right">
+            <Grid>
+                <Button Height="25" HorizontalAlignment="Left" Margin="6,10,0,0" Name="buttonClear" VerticalAlignment="Top" Width="75" Click="buttonClear_Click">清除</Button>
+                <Button HorizontalAlignment="Right" Margin="0,10,12.5,0" Name="buttonExit" Width="75" Click="buttonExit_Click" Height="25" VerticalAlignment="Top">退出</Button>
+                <Button Height="25" HorizontalAlignment="Left" Margin="6,0,0,11" Name="buttonOpen" VerticalAlignment="Bottom" Width="75" Click="buttonOpen_Click">打开</Button>
+                <Button Height="25" HorizontalAlignment="Right" Margin="0,0,12.5,11" Name="buttonSave" VerticalAlignment="Bottom" Width="75" Click="buttonSave_Click">保存</Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="基本操作" Height="75" Margin="0,330,0,0" Name="groupBox4" VerticalAlignment="Top" Width="200" HorizontalAlignment="Right">
+            <Grid>
+                <Button HorizontalAlignment="Left" Margin="6,21.163,0,6" Name="buttonSmooth" Width="75" Click="buttonSmooth_Click">笔画平滑</Button>
+                <Button HorizontalAlignment="Right" Margin="0,21.163,12.5,6" Name="buttonstrokediv" Width="75" Click="buttonStrokeDiv_Click">笔画分割</Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="区域定位" Margin="0,0,0,182" Name="groupBox6" Height="150" VerticalAlignment="Bottom" Width="200" HorizontalAlignment="Right">
+            <Grid>
+                <Label FlowDirection="LeftToRight" Height="25" HorizontalAlignment="Left" Margin="9,12,0,0" Name="label10" VerticalAlignment="Top" Width="48">表序号</Label>
+                <TextBox Height="25" Margin="72,12,16,0" Name="textBoxFormNum" VerticalAlignment="Top" />
+                <Label FlowDirection="LeftToRight" Height="25" HorizontalAlignment="Left" Margin="9,43,0,0" Name="label11" VerticalAlignment="Top" Width="48">区序号</Label>
+                <TextBox Height="25" Margin="72,43,16,0" Name="textBox7AreaNum" VerticalAlignment="Top" />
+                <Button Margin="45,0,43,6" Name="buttonFormAreaLoc" Click="buttonFormAreaLoc_Click" Height="34.163" VerticalAlignment="Bottom">表格区域定位</Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="图文分割" Margin="0,414,0,338" Name="groupBox5" HorizontalAlignment="Right" Width="200">
+            <Grid>
+                <Label Height="25" HorizontalAlignment="Left" Margin="14,15,0,0" Name="label2" VerticalAlignment="Top" Width="48" FlowDirection="RightToLeft" HorizontalContentAlignment="Center">N</Label>
+                <TextBox Height="25" Margin="77,15,11,0" Name="textBoxnN" VerticalAlignment="Top">4</TextBox>
+                <Label FlowDirection="LeftToRight" Margin="14,46,0,0" Name="label5" HorizontalAlignment="Left" Width="48" Height="25.163" VerticalAlignment="Top">纯文字</Label>
+                <TextBox Margin="77,46,11,0" Name="textBoxPureWord" Height="25.163" VerticalAlignment="Top" />
+                <Button Margin="16,0,0,55" Name="button1" Click="buttonDivAreaStren_Click" Width="75" HorizontalAlignment="Left" Height="24.999" VerticalAlignment="Bottom">分割</Button>
+                <Label FlowDirection="RightToLeft" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="14,78,0,0" Name="label1" Width="48" Height="25" VerticalAlignment="Top">正确率</Label>
+                <TextBox Margin="0,77,11,0" Name="textBoxRightForm" HorizontalAlignment="Right" Width="100" Height="24.999" VerticalAlignment="Top"></TextBox>
+                <Button Height="25" Margin="0,0,16,24" Name="buttonModifyForm" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Click="buttonModifyForm_Click" Visibility="Visible">修改</Button>
+                <Button Margin="0,0,16,55" Name="buttonDivDisplay" Click="buttonDivDisplay_Click" Height="24.999" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Visibility="Visible">分割显示</Button>
+                <Button Height="25" Margin="16,0,0,24" Name="buttonTestForm" VerticalAlignment="Bottom" Click="buttonTestForm_Click" HorizontalAlignment="Left" Width="75">测试</Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="用户按钮" Height="100" Margin="0,0,0,76" Name="groupBox7" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="200">
+            <Grid>
+                <Button Margin="45,23,43,20" Name="button3" Click="button3_Click">表格识别</Button>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
